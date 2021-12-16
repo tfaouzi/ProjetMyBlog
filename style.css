@@ -1,0 +1,51 @@
+body {
+    background-image: url(images/Apple.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Verdana, sans-serif;
+    font-weight:bold;
+    color: aliceblue;
+    
+}
+
+#global {
+    min-height: 90%;  
+    background: rgba(145, 127, 211,0.7);
+    width: 70%;
+    margin: auto;	/* Permet de centrer la div */
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+#titreBlog ,  #piedBlog {
+    text-align: center;
+    color: rgba(220, 226, 228,0.8);
+    border-bottom: wheat 2px solid ; 
+}
+.titreBillet, .titreCommentaire {
+    margin-bottom : 0px;
+    color: rgb(40, 31, 161);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header time {
+
+    color: rgba(241, 245, 29, 0.8);
+    font-size: 0.95em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: aliceblue;
+    text-decoration:none;
+    font-size: 0.95em;
+}
+
+a:hover{
+    color: rgb(235, 235, 10);
+    border-bottom: 2px solid rgb(235, 235, 10);
+    font-size: 1em;
+}
